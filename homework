@@ -1,0 +1,44 @@
+Polymorphism:
+
+1. What does the word 'polymorphism' mean?
+Polymorphism comes from the Greek language "poly" means 'many' and
+"morph" means 'to change'. Polymorphic means it can have many forms.
+
+
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+It means that something can have many different roles within our project.
+An example would be that we create an abstract class of Animal which has a name,
+age, type and other classes can use this as a template.
+
+
+3. What can we use to implement polymorphism in Java?
+We use it using both abstract classes and interfaces.
+
+
+4. How many 'forms' can an object take when using polymorphism?
+Universal (parametric, inclusion),
+Ad-hoc(overloading, )coercion.
+
+
+5. Give an example of when you could use polymorphism.
+Method overloading is an example of static polymorphism.
+
+
+
+Composition:
+
+6. What do we mean by 'composition' in reference to object-oriented programming?
+Composition refers to combining simple types to make more complex ones.
+
+
+7. When would you use composition? Provide a simple example in Java.
+When we want to reuse a relationship
+We create a Car and we know that every car has an engine so we could reuse that.
+
+
+8. What is/are the advantage(s) of using composition?
+We can reuse relationships, they also remain private as we hide visibility to client classes
+
+
+9. What happens to the behaviours when the object composed of them is destroyed?
+The relationships are destroyed too.
